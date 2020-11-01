@@ -7,9 +7,7 @@ class App < Sinatra::Base
   end
   
   get '/team/:name' do
-    @team = {
-      
-    }
+    @team = Hash.new(name: params[:name], coach: params[:coach],
 
 
 end
