@@ -7,7 +7,9 @@ class App < Sinatra::Base
   end
   
   get '/team/:name' do
-    
+    @team = {
+      
+    }
 
 
 end
